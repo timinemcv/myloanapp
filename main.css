@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(212, 52, 52);
+  color: aliceblue;
+}
+col {
+  color: red;
+}
+.page {
+  background-color: rgb(15, 80, 59);
+  text-align: center;
+  justify-content: center;
+  width: 600px;
+  margin-top: 20px;
+  margin-left: 400px;
+}
+.page .col {
+  color: red;
+}
+.page h1 {
+  font-size: 32px;
+  font-weight: 800;
+  font-family: "Cormorant SC", serif;
+  color: aqua;
+}
+.page h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  font-style: italic;
+  color: aliceblue;
+}
+.message {
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  color: snow;
+}

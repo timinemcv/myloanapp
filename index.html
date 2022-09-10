@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <fieldset class="page">
+      <h1>WELCOME TO LOAN APPLICATION</h1>
+      <h3>check your eligibility below:</h3>
+      <form>
+        <label>Full Name:</label><br />
+        <input type="text" placeholder="Name" id="details" /><br />
+        <label id="errordetails" class="col"></label><br />
+
+        <label>Contact Address:</label><br />
+        <input type="text" placeholder="Adress" id="details1" /><br />
+        <label id="errordetails1" class="col"></label><br />
+        <label
+          >Phone number: <br />
+          <input type="number" placeholder="Number" id="details2" /></label
+        ><br />
+        <label id="errordetails2" class="col"></label><br />
+
+        <label>Occupation:</label><br />
+        <input type="text" id="details3" /><br />
+        <label id="errordetails3" class="col"></label><br />
+
+        <label>Choose an Option:</label><br />
+
+        <select id="LoanOption">
+          <option value="">select an option</option>
+          <option value="loan">Loan</option>
+          <option value="transfer">Transfer</option>
+          <option value="airtime">Airtime</option></select
+        ><br />
+        <label id="display1" class="col"></label>
+        <br />
+
+        <label>Available account balance:</label><br />
+        <label> <input type="number" id="inputValue" name="amount" /></label
+        ><br />
+
+        <label id="display3" class="col"></label>
+
+        <br /><br />
+        <label>Select your Account type:</label><br />
+        <label> <input type="radio" name="account" />Savings account </label>
+        <label> <input type="radio" name="account" />Current account </label>
+        <br />
+        <label id="display5" class="col"></label>
+
+        <br /><br />
+        <label>View credit history:</label>
+        <br />
+
+        <label>
+          <select id="View">
+            <option value="">select an option</option>
+            <option value="1">Less than 3months</option>
+            <option value="2">Less than 6months</option>
+            <option value="3">More than 6months</option>
+          </select></label
+        ><br />
+        <label id="viewerror" class="col"></label>
+        <br /><br />
+
+        <label>Last deposit date:</label>
+        <br />
+        <label>
+          <select id="View1">
+            <option value="">select an option</option>
+            <option value="1">Less than 1months</option>
+            <option value="2">Less than 6months</option>
+            <option value="3">More than 6months</option>
+          </select></label
+        ><br />
+        <label id="viewerror1" class="col"></label>
+        <br /><br />
+        <label>Last loan date:</label><br />
+        <label>
+          <select id="View2">
+            <option value="">select an option</option>
+            <option value="1">Less than 1months</option>
+            <option value="2">Less than 6months</option>
+            <option value="3">More than 6months</option>
+          </select> </label
+        ><br />
+        <label id="viewerror2" class="col"></label>
+        <br /><br />
+
+        <label>Loan repayment period:</label>
+        <br />
+
+        <label>
+          <select id="options">
+            <option value="">select an option</option>
+            <option value="1">Less than 3months</option>
+            <option value="2">Less than 6months</option>
+            <option value="3">More than 6months</option>
+          </select> </label
+        ><br />
+
+        <label id="display9" class="col"></label>
+
+        <br /><br />
+        <button id="btn_proceed" type="button">PROCEED</button>
+        <button id="btn_cancel" type="button">CANCEL</button>
+        <br /><br />
+        <label id="message" class="message"></label>
+      </form>
+    </fieldset>
+    <script src="main.js"></script>
+  </body>
+</html>
